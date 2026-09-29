@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos da Igreja Católica</title>
+
+```
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: #f1eadc;
+        color: #33271c;
+    }
+
+    header {
+        background: linear-gradient(135deg, #21170f, #654923);
+        color: #f4d98c;
+        text-align: center;
+        padding: 50px 20px;
+        border-bottom: 5px solid #b9954e;
+    }
+
+    .cruz {
+        font-size: 60px;
+    }
+
+    header h1 {
+        margin: 10px 0;
+        font-size: 42px;
+    }
+
+    header p {
+        color: #eadfc9;
+        font-size: 18px;
+    }
+
+    nav {
+        background: #17110c;
+        text-align: center;
+        padding: 16px;
+    }
+
+    nav a {
+        color: #f4d98c;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: white;
+    }
+
+    main {
+        max-width: 1150px;
+        margin: auto;
+        padding: 45px 20px;
+    }
+
+    .introducao {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .introducao h2 {
+        color: #604521;
+        font-size: 32px;
+    }
+
+    .introducao p {
+        font-size: 18px;
+    }
+
+    .santos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 28px;
+    }
+
+    .card {
+        background: #fffdf8;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        border: 1px solid #d8c39a;
+        transition: transform 0.25s, box-shadow 0.25s;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.22);
+    }
+
+    .card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .conteudo {
+        padding: 22px;
+        text-align: center;
+    }
+
+    .conteudo h3 {
+        color: #604521;
+        font-size: 25px;
+    }
+
+    .conteudo p {
+        line-height: 1.6;
+    }
+
+    .botao {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 11px 22px;
+        background: #604521;
+        color: white;
+        text-decoration: none;
+        border-radius: 7px;
+        transition: background 0.2s;
+    }
+
+    .botao:hover {
+        background: #80643a;
+    }
+
+    footer {
+        margin-top: 40px;
+        background: #17110c;
+        color: #d8cdb9;
+        text-align: center;
+        padding: 28px;
+    }
+
+    footer strong {
+        color: #f4d98c;
+        font-size: 18px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<header>
+    <div class="cruz">✝</div>
+    <h1>Santos da Igreja Católica</h1>
+    <p>Conheça a vida, a fé e o testemunho dos santos</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="#santos">Santos</a>
+    <a href="#sobre">Sobre</a>
+</nav>
+
+<main>
+
+```
+<section class="introducao">
+    <h2>Sancti Dei</h2>
+    <p>
+        Conheça alguns dos santos que marcaram a história da Igreja
+        Católica por sua fé, caridade e testemunho cristão.
+    </p>
+</section>
+
+<section class="santos" id="santos">
+
+    <div class="card">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Apostle-Peter.jpg" alt="São Pedro">
+
+        <div class="conteudo">
+            <h3>São Pedro</h3>
+            <p>
+                Apóstolo de Jesus Cristo e figura central entre os Doze.
+            </p>
+            <a class="botao" href="sao-pedro.html">Ver mais</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Francis_of_Assisi_-_Google_Art_Project.jpg" alt="São Francisco de Assis">
+
+        <div class="conteudo">
+            <h3>São Francisco de Assis</h3>
+            <p>
+                Conhecido por sua humildade, pobreza e amor à criação.
+            </p>
+            <a class="botao" href="sao-francisco.html">Ver mais</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Antonello_da_Messina_009.jpg" alt="Santo Agostinho">
+
+        <div class="conteudo">
+            <h3>Santo Agostinho</h3>
+            <p>
+                Bispo de Hipona e Doutor da Igreja.
+            </p>
+            <a class="botao" href="santo-agostinho.html">Ver mais</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Image_Th%C3%A9r%C3%A8se_Lisieux.jpg" alt="Santa Teresinha">
+
+        <div class="conteudo">
+            <h3>Santa Teresinha</h3>
+            <p>
+                Conhecida pela espiritualidade da Pequena Via.
+            </p>
+            <a class="botao" href="santa-teresinha.html">Ver mais</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="introducao" id="sobre" style="margin-top: 65px;">
+    <h2>Sobre o site</h2>
+    <p>
+        Um pequeno espaço dedicado à história e ao testemunho
+        dos santos da Igreja Católica.
+    </p>
+</section>
+```
+
+</main>
+
+<footer>
+    <strong>✝ Laudetur Iesus Christus</strong>
+    <p>Site dedicado à história e à vida dos santos.</p>
+</footer>
+
+</body>
+</html>
